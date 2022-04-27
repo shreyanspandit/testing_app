@@ -4,6 +4,16 @@
 
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:testing_app/PhoneauthPage.dart';
+import 'package:testing_app/SigninPage.dart';
+import 'package:testing_app/SignupPage.dart';
+import 'package:testing_app/gridview.dart';
+import 'package:testing_app/homePage.dart';
+import 'package:testing_app/homecontroller.dart';
+import 'package:testing_app/mainscreen.dart';
+import 'package:testing_app/trashcode.dart';
+import 'package:testing_app/vendorAsker.dart';
+import 'package:testing_app/vendorDetail.dart';
 
 import 'LoginPage.dart';
 import 'Splash.dart';
@@ -24,8 +34,8 @@ class MyApp extends StatelessWidget {
         ),
         child: AnimatedSplashScreen(
           splash: Icons.add_photo_alternate_outlined,
-          duration: 3000,
-          splashTransition: SplashTransition.scaleTransition,
+          //duration: 10,
+          // splashTransition: SplashTransition.scaleTransition,
           backgroundColor: Colors.black.withOpacity(0.1),
 
           // Center(
@@ -39,7 +49,7 @@ class MyApp extends StatelessWidget {
           //       ),
           //       Container(
           //         child: Text(
-          //           'Splash sceen',
+          //           'Splash screen',
           //           style: TextStyle(
           //             fontSize: 54,
           //             fontWeight: FontWeight.bold,
@@ -49,7 +59,7 @@ class MyApp extends StatelessWidget {
           //     ],
           //   ),
           // ),
-          nextScreen: LoginPage(),
+          nextScreen: Homecontroller(),
         ),
       ),
     );

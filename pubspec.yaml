@@ -30,11 +30,27 @@ dependencies:
   flutter:
     sdk: flutter
   animated_splash_screen:
-
-
+  flutter_svg:
+  otp_text_field: ^1.1.2
+  google_fonts:
+  permission_handler: ^9.2.0
+  location: ^4.3.0
+  carousel_slider: ^4.0.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  # material_floating_search_bar: ^0.3.6
+  geolocator: ^8.2.0
+  persistent_bottom_nav_bar: ^4.0.2
+  material_floating_search_bar: ^0.3.7
+  persistent_bottom_nav_bar_v2: ^4.1.5
+  colours: ^0.0.2
+  flutter_rating_bar: ^4.0.0
+  http: ^0.13.4
+  rating_dialog: ^2.0.3
+  anim_search_bar: ^2.0.2
+  searchbar_animation: ^0.0.2
+  syncfusion_flutter_datepicker: ^20.1.50
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +79,30 @@ flutter:
    - images/image1.jpeg
    - images/image2.jpeg
    - images/image3.jpeg
+   - assets/google.svg
+   - assets/phone.svg
+   - assets/venue.jpeg
+   - images/venue.jpeg
+   - images/cake.jpeg
+   - images/photographer.jpeg
+   - images/cameraman.jpeg
+   - images/accomodation.jpeg
+   - images/venue.webp
+   - images/planner.jpeg
+   - images/food.jpeg
+   - images/invitation.jpeg
+   - assets/inv/inv1.jpeg
+   - assets/inv/inv2.jpeg
+   - assets/inv/inv3.jpeg
+   - assets/inv/inv4.jpeg
+   - assets/inv/inv5.jpeg
+   - assets/inv/inv6.jpeg
+   - assets/quotes/
+   - assets/venue/
+   - assets/offers.jpeg
+   - assets/wedding.png
+   - assets/wedding2.jpg
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -76,17 +116,19 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+   - family: Roboto
+     fonts:
+#        - asset: fonts/Roboto-Regular.ttf
+         - asset: fonts/Roboto-Italic.ttf
+           style: italic
+         - asset: fonts/Roboto-Regular.ttf
+           weight: 400
+           
+   - family: Lobster
+     fonts:
+         - asset: fonts/Lobster-Regular.ttf
+        
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
